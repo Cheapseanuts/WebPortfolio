@@ -1,0 +1,62 @@
+@font-face {
+    font-family: izayoiMonospaced;
+    src: url(IzayoiMonospaced-nwoY.ttf);
+  }
+
+body {
+    margin: 0;
+}
+.containers {
+    width: auto;
+    display: flex;
+    font-family: izayoiMonospaced;
+}
+#kerringtonLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#div1 {
+    background-color: #202020;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+#div2 {
+    background-color: #444444;
+    color: #889CD1;
+    font-size: x-large;
+}
+#div2 > h3 {
+
+}
+#div2Text {
+    display: flex;
+    margin: auto;
+    width: 70%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #kerringtonLogo {
+        max-width: 90%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #kerringtonLogo {
+        max-width: 75%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #kerringtonLogo {
+        max-width: 50%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
