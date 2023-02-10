@@ -34,6 +34,9 @@ body {
     margin: auto;
     width: 70%;
 }
+#div3 {
+    background-color: #202020;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
