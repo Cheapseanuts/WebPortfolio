@@ -5,8 +5,34 @@
     <meta name="viewport" content="width=device-width" />
     <title>Kerrington Sargent</title>
     <link rel="stylesheet" href="style.css" />
+    <script>
+      // When the user scrolls the page, execute myFunction
+      //https://www.w3schools.com/howto/howto_js_scroll_indicator.asp
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        var winScroll =
+          document.body.scrollTop || document.documentElement.scrollTop;
+        var height =
+          document.documentElement.scrollHeight -
+          document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+      }
+    </script>
   </head>
   <body>
+
+    <!-- Scroll Progress Bar-->
+    <div class="header">
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div>  
+    </div>
+
+    <!-- Container 1 - Header -->
     <div class="containers" id="div1">
       <img
         id="kerringtonLogo"
@@ -14,8 +40,11 @@
         alt="Kerrington Sargent - Junior Developer"
       />
     </div>
+
+    <!-- Container 2 - Skills -->
     <div class="containers" id="div2">
       <div id="div2Text">
+        <h3>Skills</h3>
         <div>
           <ul>
             <li>C#</li>
@@ -38,8 +67,11 @@
         </div>
       </div>
     </div>
+
+    <!-- Container 3 -->
     <div class="containers" id="div3">
-      
+
     </div>
+
   </body>
 </html>

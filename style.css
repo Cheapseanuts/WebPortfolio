@@ -1,65 +1,98 @@
+/*
+#48bf53
+#48bf8f
+#48b4bf
+#4879bf
+#5348bf
+#8e48bf
+*/
+
 @font-face {
-    font-family: izayoiMonospaced;
-    src: url(IzayoiMonospaced-nwoY.ttf);
-  }
+  font-family: izayoiMonospaced;
+  src: url(IzayoiMonospaced-nwoY.ttf);
+}
 
 body {
-    margin: 0;
+  margin: 0;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+#scrollProgress {
+  position: fixed;
+}
+.progress-container {
+  width: 100%;
+  height: 16px;
+  background: #444444;
+}
+.progress-bar {
+  height: 16px;
+  background: #48BF8F;
+  width: 0%;
 }
 .containers {
-    width: auto;
-    display: flex;
-    font-family: izayoiMonospaced;
+  width: 100%;
+  display: flex;
+  font-family: izayoiMonospaced;
 }
 #kerringtonLogo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
 }
 #div1 {
-    background-color: #202020;
-    padding-top: 250px;
-    padding-bottom: 250px;
+  background-color: #202020;
+  padding-top: 250px;
+  padding-bottom: 250px;
 }
 #div2 {
-    background-color: #444444;
-    color: #889CD1;
-    font-size: x-large;
-}
-#div2 > h3 {
-
+  background-color: #444444;
+  color: #4879BF;
 }
 #div2Text {
-    display: flex;
-    margin: auto;
-    width: 70%;
+  margin: auto;
+  width: 50%;
+  font-size: 3vw;
+}
+#div2Text > h3 {
+  color: #48BF8F;
+  font-weight: bold;
+  text-align: center;
 }
 #div3 {
-    background-color: #202020;
+  background-color: #202020;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    #kerringtonLogo {
-        max-width: 90%;
-    }
+  #kerringtonLogo {
+    max-width: 90%;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    #kerringtonLogo {
-        max-width: 75%;
-    }
+  #kerringtonLogo {
+    max-width: 90%;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    #kerringtonLogo {
-        max-width: 50%;
-    }
+  #kerringtonLogo {
+    max-width: 60%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
 }
