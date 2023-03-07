@@ -70,6 +70,17 @@ body::-webkit-scrollbar {
 }
 #div3 {
   background-color: #202020;
+  color: #4879BF;
+}
+#div3Text {
+  margin: auto;
+  width: 50%;
+  font-size: 3vw;
+}
+#div3Text > h3 {
+  color: #48BF8F;
+  font-weight: bold;
+  text-align: center;
 }
 
 /* Extra small devices (phones, 600px and down) */
