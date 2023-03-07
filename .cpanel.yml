@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/mutpu027/public_html/
-    - /bin/cp -r * $DEPLOYPATH
+    - index.html $DEPLOYPATH
