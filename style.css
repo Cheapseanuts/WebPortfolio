@@ -74,13 +74,76 @@ body::-webkit-scrollbar {
 }
 #div3Text {
   margin: auto;
-  width: 50%;
+  width: 90%;
   font-size: 3vw;
 }
 #div3Text > h3 {
   color: #48BF8F;
   font-weight: bold;
   text-align: center;
+}
+#div3Text > h5 {
+  font-size: 3vw;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+  color: #48BF8F;
+}
+#div3Text > h6 {
+  font-size: 2vw;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+  color: #48BF8F;
+}
+#div3Text > ul {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2vw;
+  width: 75%;
+}
+
+#div4 {
+  background-color: #444444;
+  color: #4879BF;
+}
+#div4Text {
+  margin: auto;
+  width: 90%;
+  font-size: 3vw;
+}
+#div4Text > h3 {
+  color: #48BF8F;
+  font-weight: bold;
+  text-align: center;
+}
+#div4Text > h5 {
+  font-size: 3vw;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+  color: #48BF8F;
+}
+#div4Text > h6 {
+  font-size: 2vw;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+  color: #48BF8F;
+}
+#div4Text > ul {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2vw;
+  width: 75%;
+}
+a:-webkit-any-link {
+  color: #4879BF;
+}
+a:hover {
+  color: #48BF8F;
 }
 
 /* Extra small devices (phones, 600px and down) */
