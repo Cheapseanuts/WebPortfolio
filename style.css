@@ -53,6 +53,24 @@ body::-webkit-scrollbar {
   background-color: #202020;
   padding-top: 250px;
   padding-bottom: 250px;
+  display: flex;
+  flex-direction: column;
+}
+#skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.skill > img {
+  max-width: 96px;
+  margin: auto;
 }
 #div2 {
   background-color: #444444;
@@ -60,13 +78,32 @@ body::-webkit-scrollbar {
 }
 #div2Text {
   margin: auto;
-  width: 50%;
+  width: 90%;
   font-size: 3vw;
 }
 #div2Text > h3 {
   color: #48BF8F;
   font-weight: bold;
   text-align: center;
+}
+#icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+#icons > a {
+  margin: 30px;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.icon > a > img:hover {
+  -webkit-filter: drop-shadow(5px 5px 5px black);
+  filter: drop-shadow(5px 5px 5px black);
 }
 #div3 {
   background-color: #202020;
@@ -103,41 +140,9 @@ body::-webkit-scrollbar {
   font-size: 2vw;
   width: 75%;
 }
-
 #div4 {
   background-color: #444444;
   color: #4879BF;
-}
-#div4Text {
-  margin: auto;
-  width: 90%;
-  font-size: 3vw;
-}
-#div4Text > h3 {
-  color: #48BF8F;
-  font-weight: bold;
-  text-align: center;
-}
-#div4Text > h5 {
-  font-size: 3vw;
-  margin-bottom: 0;
-  margin-top: 0;
-  text-align: center;
-  color: #48BF8F;
-}
-#div4Text > h6 {
-  font-size: 2vw;
-  margin-bottom: 0;
-  margin-top: 0;
-  text-align: center;
-  color: #48BF8F;
-}
-#div4Text > ul {
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 2vw;
-  width: 75%;
 }
 a:-webkit-any-link {
   color: #4879BF;
@@ -149,7 +154,47 @@ a:hover {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   #kerringtonLogo {
-    max-width: 90%;
+    max-width: 95%;
+  }
+  #div2Text {
+    margin: auto;
+    width: 95%;
+    font-size: 5vw;
+  }
+  #div2Text > h3 {
+    font-size: 7vw;
+  }
+  #div3Text {
+    margin: auto;
+    width: 95%;
+    font-size: 5vw;
+  }
+  #div3Text > h3 {
+    color: #48BF8F;
+    font-weight: bold;
+    text-align: center;
+    font-size: 7vw;
+  }
+  #div3Text > h5 {
+    font-size: 5vw;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    color: #48BF8F;
+  }
+  #div3Text > h6 {
+    font-size: 4vw;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    color: #48BF8F;
+  }
+  #div3Text > ul {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 4vw;
+    width: 90%;
   }
 }
 
@@ -169,4 +214,7 @@ a:hover {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  #kerringtonLogo {
+    max-width: 40%;
+  }
 }
