@@ -136,10 +136,11 @@ body::-webkit-scrollbar {
 #div3Text > ul {
   margin: auto;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
   font-size: 2vw;
   width: 75%;
 }
+
 #div4 {
   background-color: #444444;
   color: #4879BF;
