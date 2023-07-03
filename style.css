@@ -163,10 +163,10 @@ a:hover {
   #divLanguages {
     margin: auto;
     width: 95%;
-    font-size: 5vw;
+    font-size: 6vw;
   }
   #divLanguages > h3 {
-    font-size: 7vw;
+    font-size: 9vw;
   }
   .divText {
     margin: auto;
@@ -187,7 +187,7 @@ a:hover {
     color: #48BF8F;
   }
   .divText > h6 {
-    font-size: 4vw;
+    font-size: 6vw;
     margin-bottom: 0;
     margin-top: 0;
     text-align: center;
@@ -197,22 +197,102 @@ a:hover {
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 4vw;
+    font-size: 6vw;
     width: 90%;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 768px) {
   #kerringtonLogo {
     max-width: 90%;
+  }
+  #divLanguages {
+    margin: auto;
+    width: 95%;
+    font-size: 4vw;
+  }
+  #divLanguages > h3 {
+    font-size: 6vw;
+  }
+  .divText {
+    margin: auto;
+    width: 95%;
+    font-size: 5vw;
+  }
+  .divText > h3 {
+    color: #48BF8F;
+    font-weight: bold;
+    text-align: center;
+    font-size: 6vw;
+  }
+  .divText > h5 {
+    font-size: 5vw;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    color: #48BF8F;
+  }
+  .divText > h6 {
+    font-size: 5vw;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    color: #48BF8F;
+  }
+  .divText > ul {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 5vw;
+    width: 90%;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   #kerringtonLogo {
     max-width: 60%;
+  }
+  #divLanguages {
+    margin: auto;
+    width: 95%;
+    font-size: 3vw;
+  }
+  #divLanguages > h3 {
+    font-size: 4vw;
+  }
+  .divText {
+    margin: auto;
+    width: 95%;
+    font-size: 3vw;
+  }
+  .divText > h3 {
+    color: #48BF8F;
+    font-weight: bold;
+    text-align: center;
+    font-size: 4vw;
+  }
+  .divText > h5 {
+    font-size: 5vw;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    color: #48BF8F;
+  }
+  .divText > h6 {
+    font-size: 3vw;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    color: #48BF8F;
+  }
+  .divText > ul {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 3vw;
+    width: 90%;
   }
 }
 
